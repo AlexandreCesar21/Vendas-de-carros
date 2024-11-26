@@ -111,16 +111,9 @@ SELECT * FROM clientes;
 
 <p>Retorna os clientes associados aos carros, unindo as tabelas <code>clientes</code> e <code>carros.</code></p>
 
-````
+```
 SELECT * 
 FROM clientes 
 JOIN carros 
 ON clientes.codigo = carros.codigo;
 ```
-
-
-
-
-
-
-
